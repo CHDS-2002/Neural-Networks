@@ -76,7 +76,7 @@ int main() {
 	for (int t = 0; t < sequence_length; ++t) {
 	    inputs[t] = (float*)malloc(num_input_units * sizeof(float));
 	    for (int i = 0; i < num_input_units; ++i) {
-	        inputs[t][i] = rand() % 100 / 100.0f; // Случайное значение от 0 до 1
+			inputs[t][i] = rand() % 100 / 100.0f; // Случайное значение от 0 до 1
 	    }
 	}
 	
